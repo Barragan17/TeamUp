@@ -29,10 +29,6 @@ public class pm {
         this.Project.delete(pm_project);
     }
 
-    public void CreateProject(User pm_project) {
-        this.Project.add(pm_project);
-    }
-
     public void LeftSwipe(User pm_talentSugg) {
         this.Project.delete(pm_talentSugg);
     }
