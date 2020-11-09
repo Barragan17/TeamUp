@@ -1,0 +1,15 @@
+public class Project{
+    public String project_name;
+    public String project_desc;
+    public String project_req;
+    public Date project_date;
+    
+    public Select(String newproject_name) {
+        this.project_name = newproject_name;
+        return project_name
+    }
+    
+    public DisplayProject() {
+        return project_desc;
+    }
+}
